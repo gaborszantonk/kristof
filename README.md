@@ -1,2 +1,2 @@
-# kristof
+# Kristof
 Jó napot Tanár úr!
