@@ -1,2 +1,6 @@
 # Kristof
 Jó napot Tanár úr!
+Szg: Jó estét, Kristóf... 
+
+# 03 01 feladat
+A kutyát légy szíves egy pic mappába beletenni, és úgy beépíteni...
