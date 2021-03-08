@@ -1,3 +1,3 @@
 body {background-image:  url(pict/pic2.jpg);background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover;}
-header {width: 100%;color: white;}
+header {width: 100%;color: white;background-color: red;}
 body {color: white;text-align: center;}
