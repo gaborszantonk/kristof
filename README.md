@@ -16,4 +16,5 @@ Készíts a weboldalnak egy fejlécet, mely a képernyő 100 %-ára kiterjed. Sz
 Megoldottam!
 
  # Python-feladatok
- 5.9 - Kristóf, köszi. Rendben. Az 5.10-est meg el tudod készíteni?
+ 5.9 - Kristóf, köszi. Rendben. Az 5.10-est meg el tudod készíteni?<br>
+ Elkezdtem, beírogattam az alap dolgokat,próbálgattam reversel,for cikulussal de sehogy nem jön össze.
