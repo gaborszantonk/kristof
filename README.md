@@ -3,7 +3,7 @@ Jó napot Tanár úr!
 Szg: Jó estét, Kristóf... 
 
 # a weboldalam címe
-https://github.com/gaborszantonk/kristof.git 
+https://gaborszantonk.github.io/kristof/
 
 # 03 01 feladat
 A kutyát légy szíves egy pic mappába beletenni, és úgy beépíteni...

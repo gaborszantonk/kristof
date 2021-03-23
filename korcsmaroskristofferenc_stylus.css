@@ -1,5 +1,5 @@
 body {background-image:  url(pict/pic2.jpg);background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover; top:0px;left: 0px;z-index: 1;color: white;text-align: center;}
 header {width: 100%;color: white;background-color: cyan;}
-#elso{width: 33%;margin-top: 10%;background-color: rgba(24, 247, 91);float:left;}
-#masodik{width: 33%;margin-top:10%;background-color: rgba(24, 247, 91);float:left;}
-#harmadik{width: 33%;margin-top:10%;background-color: rgb(24, 247, 91);float:left;}
+#elso{width: 33%;background-color: rgba(24, 247, 91);float:left;}
+#masodik{width: 33%;background-color: rgba(24, 247, 91);float:left;}
+#harmadik{width: 33%;background-color: rgb(24, 247, 91);float:left;}
