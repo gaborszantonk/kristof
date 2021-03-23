@@ -18,3 +18,4 @@ Megoldottam!
  # Python-feladatok
  5.9 - Kristóf, köszi. Rendben. Az 5.10-est meg el tudod készíteni?<br>
  Elkezdtem, beírogattam az alap dolgokat,próbálgattam reversel,for cikulussal de sehogy nem jön össze.
+ Az órai feladatot és a 5.9-est  kell kombinálni... A beírt szöveget az egyik változó tárolja; a fordítottat - az 5.9-es alapján - egy másik, majd a végén a kér karaktersorozatot megvizsgálod: ha egyenlő a kettő, akkor palindrom, ha nem egyenlőek, akkor nem.
