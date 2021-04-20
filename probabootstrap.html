@@ -7,32 +7,51 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <title>Document</title>
+    <link href="bootstrap.css" rel="stylesheet">
 </head>
 <body class="bg-success">
     <h1>Próbálkozásaim</h1>
-    <nav class="nav bg-dark">
-        <a class="nav-link active text-danger" aria-current="page" href="probabootstrap.html">Ez a kezdőlap</a>
-        <a class="nav-link text-warning" href="https://24.hu">24.hu oldala</a>
-        <a class="nav-link text-light" href="https://www.youtube.com/">Youtube linkje</a>
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Kedvenc linkjeim</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://www.twitch.tv/">Kedvenc weboldalam</a></li>
-                <li><a class="dropdown-item" href="https://hvg.hu/">Másik weblap</a></li>
-                <li><a class="dropdown-item" href="https://getbootstrap.com/">És mégegy weblap</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
-                <li><a class="dropdown-item" href="https://getbootstrap.com/">És mégegy weblap</a></li>
-              </ul>
-            </li>
-            
+<!--Nav kezdetet-->
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Linkjeim</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="probabootstrap.html">Honlapom</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Első link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.cserhati.hu/">Iskolám</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Kedvenceim
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Első link</a></li>
+            <li><a class="dropdown-item" href="#">Második link</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Valami más link</a></li>
           </ul>
-        <a class="nav-link disabled text-info" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </nav>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Elérhetetlen</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+ <!--Nav vége-->
     <div class="container">
     <div class="row bg-primary">
     <div class="col-md-6 col-lg-3 bg-primary text-warning p-2">
@@ -154,5 +173,31 @@ Class 3 - 1 mW - 10 méter
       </div>
     </div>
   </div>
+  <!--Szekció kezdetet-->
+<div class="container">
+  <div class="row bg-success">
+    <div class="col p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eaque rerum nam facere, odit in ducimus molestias voluptates eos repellat dignissimos sed fugiat ut aut, est, impedit cupiditate? Sequi, a.
+    Sed ratione eos, sit debitis reiciendis voluptate porro impedit officia expedita, totam voluptatem nam quis distinctio voluptatum eveniet aspernatur recusandae, deserunt deleniti dolorem tempore ut at illo alias aperiam. Nam!
+    Harum corrupti quaerat ipsum amet! Deserunt voluptas quibusdam, voluptatem pariatur suscipit dolorum libero quisquam corrupti rerum blanditiis, exercitationem vitae dolores debitis veritatis nostrum, praesentium ipsam maiores. Accusamus inventore assumenda blanditiis!
+    Dolorum rem id alias optio tempora, quod dignissimos obcaecati repellendus harum, minima est recusandae voluptate reiciendis illum eaque culpa, praesentium doloribus nihil deserunt? Esse necessitatibus alias doloremque laudantium rerum labore!
+    Sequi rem laboriosam perspiciatis accusamus hic dolores veniam tenetur iste voluptatum ratione aliquid similique nam eaque id illum reprehenderit cumque quia doloremque obcaecati maiores eum possimus, nesciunt reiciendis consequatur! Culpa?
+    Excepturi libero veritatis tempore, dolorum culpa iure maxime inventore reprehenderit, non delectus nam voluptatem deserunt laudantium quae quis necessitatibus aut itaque rerum vel! Enim vitae nisi voluptas excepturi, culpa fugit!
+    Necessitatibus natus ratione enim perferendis temporibus iure consequuntur! Amet illo quae rerum ullam commodi fuga tempora mollitia dolorem, repellat sunt quaerat optio vero quis incidunt, quidem sint. Incidunt, enim at?
+    Esse vero natus corrupti aut sed deleniti quasi ducimus, officia voluptatibus aspernatur excepturi, voluptate ab quos veritatis officiis non eaque nulla nihil id aperiam totam. Quod aspernatur iusto obcaecati quasi?
+    Magni, eligendi. Deserunt quisquam harum similique iste, amet maiores, consectetur iure, voluptatum exercitationem at sed magnam? Aspernatur, beatae itaque ad similique nemo dolor odio delectus eligendi recusandae, minima natus accusantium.
+    Ea dolorum iusto cumque quam officia tempore nihil tenetur harum sunt accusantium dolore, vitae quae! Libero dignissimos dicta ipsum odio, ipsa illo, consequuntur molestiae minima sequi magnam qui. Dolores, blanditiis.</div>
+    <div class="col p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eaque rerum nam facere, odit in ducimus molestias voluptates eos repellat dignissimos sed fugiat ut aut, est, impedit cupiditate? Sequi, a.
+    Sed ratione eos, sit debitis reiciendis voluptate porro impedit officia expedita, totam voluptatem nam quis distinctio voluptatum eveniet aspernatur recusandae, deserunt deleniti dolorem tempore ut at illo alias aperiam. Nam!
+    Harum corrupti quaerat ipsum amet! Deserunt voluptas quibusdam, voluptatem pariatur suscipit dolorum libero quisquam corrupti rerum blanditiis, exercitationem vitae dolores debitis veritatis nostrum, praesentium ipsam maiores. Accusamus inventore assumenda blanditiis!
+    Dolorum rem id alias optio tempora, quod dignissimos obcaecati repellendus harum, minima est recusandae voluptate reiciendis illum eaque culpa, praesentium doloribus nihil deserunt? Esse necessitatibus alias doloremque laudantium rerum labore!
+    Sequi rem laboriosam perspiciatis accusamus hic dolores veniam tenetur iste voluptatum ratione aliquid similique nam eaque id illum reprehenderit cumque quia doloremque obcaecati maiores eum possimus, nesciunt reiciendis consequatur! Culpa?
+    Excepturi libero veritatis tempore, dolorum culpa iure maxime inventore reprehenderit, non delectus nam voluptatem deserunt laudantium quae quis necessitatibus aut itaque rerum vel! Enim vitae nisi voluptas excepturi, culpa fugit!
+    Necessitatibus natus ratione enim perferendis temporibus iure consequuntur! Amet illo quae rerum ullam commodi fuga tempora mollitia dolorem, repellat sunt quaerat optio vero quis incidunt, quidem sint. Incidunt, enim at?
+    Esse vero natus corrupti aut sed deleniti quasi ducimus, officia voluptatibus aspernatur excepturi, voluptate ab quos veritatis officiis non eaque nulla nihil id aperiam totam. Quod aspernatur iusto obcaecati quasi?
+    Magni, eligendi. Deserunt quisquam harum similique iste, amet maiores, consectetur iure, voluptatum exercitationem at sed magnam? Aspernatur, beatae itaque ad similique nemo dolor odio delectus eligendi recusandae, minima natus accusantium.
+    Ea dolorum iusto cumque quam officia tempore nihil tenetur harum sunt accusantium dolore, vitae quae! Libero dignissimos dicta ipsum odio, ipsa illo, consequuntur molestiae minima sequi magnam qui. Dolores, blanditiis.</div>
+  </div>
+</div>
+  <!--Szekció zárás-->
 </body>
 </html>
