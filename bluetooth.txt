@@ -1,0 +1,57 @@
+A Bluetooth rövid hatótávolságú, adatcseréhez használt, nyílt, vezetéknélküli szabvány. Alkalmazásával számítógépek, mobiltelefonok (telefonkihangosítók) és egyéb készülékek között automatikusan létesíthetünk kis hatótávolságú rádiós kapcsolatot.
+
+Az 1.2-es verzió 1 Mbps-os, a 2.0-s Bluetooth pedig 3 Mbps-os adatátviteli sebességet tesz lehetővé a világszerte szabadon elérhető 2,4 gigahertzes frekvenciasávban. Európában és az Egyesült Államokban a 2,402 GHz és 2,480 GHz közötti 79 db 1 MHz-es sávban, Japánban a 2,472 és 2,497 GHz közötti 23 db 1 MHz-es sávban működik. Az adatcsatorna ebben a sávban másodpercenként 1600-szor változik véletlenszerűen („szórt spektrumú frekvenciaugrás”). Egy hálózatban egy időben 1 „mester” eszközhöz legfeljebb 7 másik eszköz csatlakozhat. Az egymáshoz csatlakozott eszközök ún. personal-area network-öt (PAN), más szóval piconet-et hoznak létre, ami például az egy szobában lévő eszközök által alkotott hálózatot jelenti (vagy az autóban a mobiltelefon és a fejhallgató közötti kicsiny hálózatot).
+
+A Bluetooth alacsony energiafogyasztása miatt különösen alkalmas hordozható eszközök számára. A készülékek osztályuktól függően az alábbi távolságon belül képesek kommunikálni.
+
+A Beállításokban
+
+Válassza Start a Start > a Beállítások > eszközök > Bluetooth & egyéb eszközöklehetőséget, és kapcsolja be a Bluetooth-ot. 
+
+A Bluetooth funkció bekapcsolása a beállítások
+
+A műveletközpontban
+
+A Műveletközpont a tálcán, az idő és a dátum mellett található. Kattintson a tálcán a Műveletközpont (  vagy  ) elemre, majd a Bluetooth elemre a  bekapcsolásához. Ha ki van kapcsolva, előfordulhat, hogy Nincs csatlakoztatva állapotúként jelenik meg. 
+
+Ha nem látja a Bluetooth-t a műveletközpontban, az alábbiak szerint módosíthatja:
+
+A gyorsműveletek kibontása. A tálcán válassza a műveletközpont( vagy ) > Kibontás lehetőséget. Itt meg kell jelennie a Bluetooth-nak. A következőképpen jelenik meg: Bluetooth, illetve Nincs csatlakoztatva.
+
+Bluetooth hozzáadása a műveletközponthoz. Válassza a Start > Beállítások >  rendszer >értesítései & műveletek>gyors műveleteklehetőséget.  Lépjen a Gyorsműveletek felvétele vagy eltávolítása elemre, és kapcsolja be a Bluetooth funkciót.
+
+A Bluetooth a hasonló kommunikációs szabványokhoz hasonlóan az adatokat csomagok formájában forgalmazza. Az átviteli közeg a levegő, az eszközök között rádióhullámok formájában terjednek a jelek átvitelére használt impulzusok. A rádióhullámok 2,4 GHz-es (2400-2483.5 MHZ közötti) frekvencián terjednek tova a levegőben. A kommunikációban résztvevő eszközök mindegyike kap egy címet, ami alapján azonosítható a hálózatban. A különbözőségek áthidalásához, és a komminkáció sokfélesége miatt különböző átviteli módokat, ún. profilokat vagy layereket tartalmaz, attól függően, mi az átviendő adat. Nyilván másféle szabvány kell egy hangátvitelhez, mint egy nyomtatandó adat elküldéséhez. A tervezett 20 profilból tulajdonképpen csak 13 használható. Ezek közül is vannak olyan profilok, mely jellegtől függetlenül, minden egységben kötelező jelenlétű, az opcionális profilok azonban csak azokban találhatók meg, melyek ténylegesen használják is. Pl. a GAP (Generic Access Profile) hivatott az összeköttetés megteremtésére, így ez minden eszközből kihagyhatatlan.
+
+Felsorolásképpen megemlítjük a fontosabb profilokat:
+
+GAP (Generic Access Profile)
+SDAP (Service Discovery Application Profile)
+CTP (Cordless Telephony Profile)
+IP (Intercom Profile)
+SPP (Serial Port Profile)
+HS (Headset profile)
+DNP (Dial-up Networking Profile)
+FP (Fax profile)
+LAP (LAN Access Profile)
+GOEP (Generic Object Exchange Profile)
+OPP (Object Push Profile)
+FTP (File transfer Profile)
+SP (Synchronization Profile)
+
+A Bluetooth 3 osztályban terjedt el, ezek a leadott teljesítményben és a hatótávolságban különböznek egymástól.
+
+Class 1 - 100 mW - 100 méter
+Class 2 - 2,5 mW - 15-20 méter
+Class 3 - 1 mW - 10 méter
+
+A Bluetooth technológiát vezetéknélküli hálózatok, eszközök összekapcsolására különböző, általában mobil (tehát legtöbbször nem fix helyen lévő) eszközök, illetve kis energiafogyasztású berendezések esetén használnak.
+
+Néhány Bluetooth-felhasználási eset:
+
+
+Asztali számítógép és egy vagy több hordozható eszköz összekapcsolása (PDA, notebook, mobiltelefon)
+Ha a hálózat nem igényel nagy átviteli sebességet (egér, billentyűzet nyomtató, amennyiben a kábelezés nem megoldható)
+Egyéb esetek, amikor nem célszerű, vagy lehetséges kábelt vagy más átvitelt megvalósítani (PC internetkapcsolatának kiterjesztése PDA-ra vagy mobiltelefonra, bár ezekre is létezik jobb megoldás)
+Ideiglenes, ritkán használt (és ezért nem kábelezhető) kapcsolatokra.
+
+Megemlítjük, hogy lehetséges számítógépek hagyományos LAN hálózati össszeköttetése, de ez estetben a sebesség az elterjedt 100 Mbites kábelezésnek csupán töredéke lesz.
