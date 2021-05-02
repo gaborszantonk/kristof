@@ -1,0 +1,4 @@
+body {background-image: url(pict/hatter.jpg);background-attachment: fixed;background-size: cover;}
+.container {background-color: rgb(141, 71, 71);min-height: 90 vh;}
+img {padding-bottom: 3;}
+a {padding-top: 3;text-align:center ;}
